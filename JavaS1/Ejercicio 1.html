@@ -1,0 +1,17 @@
+<script type="text/javascript"> 
+    var fecha = new Date();
+    let mes =  [
+    "Enero", "Febrero", "Marzo",
+    "Abril", "Mayo", "Junio", "Julio",
+    "Agosto", "Septiembre", "Octubre",
+    "Noviembre", "Diciembre"
+];
+    var semana = ['Domingo','Lunes','Martes','Miércoles','Jueves','Viernes', 'Sábado']
+
+    document.write('Hoy es '+semana[fecha.getDay()]+' '+fecha.getDate(), ' de '+ mes[fecha.getMonth()],' del '+fecha.getFullYear(),'<br>Y son las  '
+    +fecha.getHours(),':'+fecha.getMinutes(),':'+fecha.getSeconds());
+   
+ 
+
+   </script>
+
