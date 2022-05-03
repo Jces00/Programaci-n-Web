@@ -1,3 +1,4 @@
+{
 function Lanzar(x, y) { 
     //var table = [];
     var i;
@@ -6,6 +7,7 @@ function Lanzar(x, y) {
       y = Math.floor(Math.random()*(5+1)+1);
        sum = x + y
        table.push(sum);
-    }
+        }
       
+    }
 }

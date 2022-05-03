@@ -1,5 +1,4 @@
-//<script type="text/javascript">
-	
+{
 	function GeneraForm(){
 		
 		let formulario=document.createElement("form");
@@ -71,4 +70,4 @@
         	document.getElementById('ContentFormulario').appendChild(formulario);//Agregar el formulario a la etiquete con el ID			
 	}
  
- 
+}
