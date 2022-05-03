@@ -1,37 +1,19 @@
-<script type="text/javascript"> 
-let fecha = prompt('Ingresa dato 1: ');
-let fecha2 = prompt('Ingresa dato 2: ');
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
 
- let fecha_cadena = new Date(fecha);
- let fecha_cadena2 = new Date(fecha2);
-
-  
- let meses =  [
-     "Enero", "Febrero", "Marzo",
-     "Abril", "Mayo", "Junio", "Julio",
-     "Agosto", "Septiembre", "Octubre",
-     "Noviembre", "Diciembre"
- ];
-  
-   let dia = fecha_cadena.getDate();
-   let mes= fecha_cadena.getMonth();
-   let year = fecha_cadena.getFullYear();
-
-   let dia2 = fecha_cadena2.getDate();
-   let mes2= fecha_cadena2.getMonth();
-   let year2 = fecha_cadena2.getFullYear();
-  
-   
-let resultado = time_difference = difference(fecha,fecha2);
-
-if (resultado = true) {
-  alert (resultado)
-} else {
-  alert ("false")
-}
-
-
-
-//    let resultado = dia + ' ' + meses[mes] + ' ' + year;
-  //  alert(resultado)
-</script>
+<html>
+    <head>
+        <title>Comparacion Fechas JS</title>
+        <script type="text/javascript" src="ejer2.js"></script>
+    </head>
+    <body>
+        <form id="Formulario" onSubmit="CompararFechas()">
+            <table>
+                <tr>
+                    <th align="left">Introduce Fecha:</th>
+                    <th><input id="Fecha" type="text"></input></th>
+                    <th><input type="submit" value="Enviar"></input></th>
+                </tr>
+            </table>	
+        </form>
+    </body>
+</html>
