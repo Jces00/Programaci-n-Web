@@ -1,6 +1,5 @@
 {
-    function ejer3(){
-			
+    function ejer3(){			
         var cadena = prompt("Introduce la cadena:");
         var separador = " ";
         var longitud=0;
